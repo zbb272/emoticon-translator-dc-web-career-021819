@@ -31,7 +31,11 @@ def get_japanese_emoticon(filepath, emoticon)
       return_emoticon = japanese_emoticon
     end 
   end 
-  return_emoticon
+  if return_emoticon == nil 
+    "Sorry, the emoticon was not found"
+  else 
+    return_emoticon
+  end 
 end
 
 # describe "#get_japanese_emoticon" do
