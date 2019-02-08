@@ -43,26 +43,6 @@ def get_japanese_emoticon(filepath, emoticon)
   end 
 end
 
-# describe "#get_japanese_emoticon" do
-
-#   it "returns the Japanese equivalent of an English grinning" do
-#     expect(get_japanese_emoticon("./lib/emoticons.yml", "=D")).to eq("(￣ー￣)")
-#   end
-
-#   it "returns the Japanese equivalent of an English happy" do
-#     expect(get_japanese_emoticon("./lib/emoticons.yml", ":)")).to eq("(＾ｖ＾)")
-#   end
-
-#   it "returns the Japanese equivalent of an English sad" do
-#     expect(get_japanese_emoticon("./lib/emoticons.yml", ":'(")).to eq("(Ｔ▽Ｔ)")
-#   end
-
-#   it "returns an apology message if the argument is not a known emoticon" do
-#     sorry_message = "Sorry, that emoticon was not found"
-#     expect(get_japanese_emoticon("./lib/emoticons.yml", "$#$%{}*")).to eq(sorry_message)
-#   end
-
-
 def get_english_meaning
   # code goes here
 end
