@@ -37,7 +37,7 @@ def get_japanese_emoticon(filepath, emoticon)
   
   #case if no emoticon is found
   if return_emoticon == nil 
-    "Sorry, the emoticon was not found"
+    "Sorry, that emoticon was not found"
   else 
     return_emoticon
   end 
