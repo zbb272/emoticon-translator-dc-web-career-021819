@@ -9,7 +9,7 @@ def load_library(filepath)
   #populate get_meaning
   emoticons.each do | meaning , emoticon_array |
     emoticon_array.each do | emote | 
-      get_meaning[emote] => meaning 
+      get_meaning[emote] => meaning.to_s 
     end 
   end 
   
