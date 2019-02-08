@@ -19,6 +19,8 @@ def load_library(filepath)
   end 
   
   get_meaning.merge(get_emoticon)
+  new_hash[:get_meaning] => get_meaning
+  new_hash[:get_emoticon] => get_emoticon
 end
 
 # context "return value" do
