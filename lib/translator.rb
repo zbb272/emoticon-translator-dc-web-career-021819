@@ -59,7 +59,7 @@ def get_english_meaning(file_path, emoticon)
   if return_emoticon == nil 
     "Sorry, that emoticon was not found"
   else 
-    return_emoticon
+    return_meaning
   end 
 end
 
