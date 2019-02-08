@@ -20,6 +20,7 @@ def load_library(filepath)
   
   new_hash[:get_meaning] => get_meaning
   new_hash[:get_emoticon] => get_emoticon
+  new_hash
 end
 
 # context "return value" do
