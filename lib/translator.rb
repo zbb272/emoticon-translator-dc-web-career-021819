@@ -28,11 +28,14 @@ def get_japanese_emoticon(filepath, emoticon)
   
   return_emoticon = ""
   
+  #iterate through the "get_emoticon" hash and find the japanese emoticon 
   emoticon_hash["get_emoticon"].each do | english_emoticon, japanese_emoticon |
     if emoticon == english_emoticon
       return_emoticon = japanese_emoticon
     end 
   end 
+  
+  #case if no emoticon is found
   if return_emoticon == nil 
     "Sorry, the emoticon was not found"
   else 
