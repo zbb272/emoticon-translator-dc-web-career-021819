@@ -15,7 +15,7 @@ def load_library(filepath)
   
   #populate get_emoticon
   emoticons.each do | meaning , emoticon_array |
-    emoticon_array.each do | emote |
+    get_emoticon[emoticon_array[0]] => emoticon_array[1]
   end 
 end
 
