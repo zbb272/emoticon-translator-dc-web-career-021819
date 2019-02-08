@@ -31,7 +31,7 @@ def get_japanese_emoticon(filepath, emoticon)
       return_emoticon = japanese_emoticon
     end 
   end 
-  
+  return_emoticon
 end
 
 # describe "#get_japanese_emoticon" do
