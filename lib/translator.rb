@@ -3,11 +3,19 @@ require "yaml"
 def load_library(filepath)
   emoticons = YAML.load_file(filepath)
   new_hash  = {}
+  get_meaning = {}
+  get_emoticon = {}
   
+  #populate get_meaning
   emoticons.each do | meaning , emoticon_array |
     emoticon_array.each do | emote | 
-      new_hash
+      get_meaning[emote] => meaning 
     end 
+  end 
+  
+  #populate get_emoticon
+  emoticons.each do | meaning , emoticon_array |
+    emoticon_array.each do | emote |
   end 
 end
 
