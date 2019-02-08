@@ -19,7 +19,7 @@ def load_library(filepath)
   end 
   
   new_hash["get_meaning"] = get_meaning
-  new_hash[:"get_emoticon"] = get_emoticon
+  new_hash["get_emoticon"] = get_emoticon
   new_hash
 end
 
