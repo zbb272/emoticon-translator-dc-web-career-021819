@@ -48,10 +48,10 @@ def get_english_meaning(file_path, emoticon)
   
   return_meaning = nil 
   
-  #iterate through the "get_meaning" hash and find the japanese emoticon 
-  emoticon_hash["get_emoticon"].each do | english_emoticon, japanese_emoticon |
-    if emoticon == english_emoticon
-      return_emoticon = japanese_emoticon
+  #iterate through the "get_meaning" hash and find the meaning 
+  emoticon_hash["get_meaning"].each do | emote, meaning |
+    if emoticon == emote
+      return_meaning = meaning
     end 
   end 
   
