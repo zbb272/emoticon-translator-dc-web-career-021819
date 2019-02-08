@@ -9,17 +9,17 @@ def load_library(filepath)
   #populate get_meaning
   emoticons.each do | meaning , emoticon_array |
     emoticon_array.each do | emote | 
-      get_meaning[emote] => meaning
+      get_meaning[emote] = meaning
     end 
   end 
   
   #populate get_emoticon
   emoticons.each do | meaning , emoticon_array |
-    get_emoticon[emoticon_array[0]] => emoticon_array[1]
+    get_emoticon[emoticon_array[0]] = emoticon_array[1]
   end 
   
-  new_hash[:get_meaning] => get_meaning
-  new_hash[:get_emoticon] => get_emoticon
+  new_hash[:get_meaning] = get_meaning
+  new_hash[:get_emoticon] = get_emoticon
   new_hash
 end
 
