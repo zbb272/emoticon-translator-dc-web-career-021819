@@ -17,6 +17,8 @@ def load_library(filepath)
   emoticons.each do | meaning , emoticon_array |
     get_emoticon[emoticon_array[0]] => emoticon_array[1]
   end 
+  
+  get_meaning.merge(get_emoticon)
 end
 
 # context "return value" do
