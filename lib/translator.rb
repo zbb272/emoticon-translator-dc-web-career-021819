@@ -25,6 +25,12 @@ end
 
 def get_japanese_emoticon(filepath, emoticon)
   emoticon_hash = load_library(filepath)
+  
+  emoticon_hash["get_emoticon"].each do | english_emoticon, japanese_emoticon |
+    if emoticon == english_emoticon
+      return_emoticon = japanese_emoticon
+    end 
+  end 
 end
 
 # describe "#get_japanese_emoticon" do
