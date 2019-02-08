@@ -43,8 +43,8 @@ def get_japanese_emoticon(filepath, emoticon)
   end 
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(file_path, emoticon)
+  emoticon_hash = load_library(file_path)
 end
 
 # it "accepts two arguments, the YAML file path and the emoticon" do
