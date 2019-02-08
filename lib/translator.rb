@@ -26,7 +26,7 @@ end
 def get_japanese_emoticon(filepath, emoticon)
   emoticon_hash = load_library(filepath)
   
-  return_emoticon = ""
+  return_emoticon = nil
   
   #iterate through the "get_emoticon" hash and find the japanese emoticon 
   emoticon_hash["get_emoticon"].each do | english_emoticon, japanese_emoticon |
